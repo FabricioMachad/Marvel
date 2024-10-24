@@ -21,3 +21,64 @@ body{
     margin-right: 0;
     border-bottom: 1px solid white;
 }
+
+.banner{
+    width: 100%;
+}
+
+.lanca{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-image: linear-gradient(to bottom, black, #202020);
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.lanca img{
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+}
+
+.lanca p{
+    color: white;
+}
+
+.lanca h1{
+    color: gray;
+    font-size: 20px;
+}
+
+.news{
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    font-size: 15px;
+}
+
+
+.novidade{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #202020;
+    padding: 10px;
+}
+
+.novidade img{
+    width: 80%;
+    padding-top: 4%;
+}
+
+.novidade h3{
+    color: white;
+    text-align:left;
+    padding-top: 4%;
+}
+
+.rodape{
+    text-align: center;
+    background-color: #202020;
+    padding: 20px;
+    font-weight: bold;
+    color: white;
+}
